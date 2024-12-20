@@ -1,0 +1,18 @@
+.live-tag2{
+     /* background-image: linear-gradient(to right, #ed6ea0, #ec8c69, #f7186a, #FBB03B); */
+     box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+     font-style: italic;
+     text-transform: lowercase;
+     position: relative;
+     /* transition: ease-in-out; */
+     width: 3vmin;
+     height: 3vmin;
+     background-color:#f7c75f;
+     border-radius: 50%;
+     /* z-index: 0; */
+     /* border: 5px solid; */
+     animation-name: examplee;
+     animation-duration: 4s;
+     animation-iteration-count:infinite;
+    background-image: url("https://skillgro-react.netlify.app/assets/img/others/about_shape.svg");
+}

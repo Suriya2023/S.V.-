@@ -1,0 +1,23 @@
+.imgdiv > img{
+  width:100%;
+  border: 2px solid;
+  position: absolute;
+  object-fit:contain;
+  /* position: relative; */
+  opacity: 0.05;
+  background-attachment: fixed;
+  z-index: 0;
+  height: 100vh;
+ }
+
+ 
+ .maindiv{
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+  /* overflow-x: hidden; */
+  z-index: 1000;
+  position: relative;
+  /* background-color: rgba(225, 189, 135, 0.3); */
+ }
+ 

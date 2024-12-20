@@ -1,0 +1,123 @@
+
+#lightgreen{
+    background-color: lightgreen;
+}
+#lightpurple{
+    background-color: lightpurple;
+}
+#lightorange{
+    background: lightorange;
+}
+ 
+.containerrr {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* background-color: #f9f1e4; */
+    padding: 20px;
+  }
+  #ss1{
+    overflow: hidden;
+    background-color: #b4d2be;
+  }
+  #ss2{
+    overflow: hidden;
+    background-color:#dbb4d6;
+  }
+  #ss3{
+    overflow: hidden;
+    background-color:#e7e2bc;
+  }
+  #mm{
+    float: inline-end;
+    /* visibility: hidden; */
+    /* border: 1px solid red; */
+    box-sizing: 10px 10px 10px 10px red;
+    width: 10%;
+    color: transparent;
+    background: #84bc9d;
+    box-shadow: -34px 31px 106px 174px #84bc9d;
+
+  }
+  #mmm{
+    float: inline-end;
+    /* visibility: hidden; */
+    /* border: 1px solid red; */
+    box-sizing: 10px 10px 10px 10px red;
+    width: 10%;
+    color: transparent;
+    background: #db7add;
+    box-shadow: -34px 31px 106px 174px #db7add;
+}
+#mmmm{
+    float: inline-end;
+    /* visibility: hidden; */
+    /* border: 1px solid red; */
+    box-sizing: 10px 10px 10px 10px red;
+    width: 10%;
+    color: transparent;
+    background: #dbd17f;
+    box-shadow: -34px 31px 106px 174px #dbd17f;
+}
+  .facility {
+
+    flex-basis: calc(33% - 40px);
+    margin: 20px;
+    /* background-color:; */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,.1);
+  }
+  .facility-icon {
+    /* text-align: center; */
+    font-size: 50px;
+  }
+  .facility h3 {
+    text-align: center;
+    color: #333;
+  }
+  .facility p {
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+  }
+  .learn-more-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: transparent;
+    color: black;
+    text-align: justify;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+  .banner-content p {
+    font-size: 1em;
+    color: #666;
+    padding: 0vmin 7vmin 17px 1vmin;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .learn-more-btn:hover {
+    background-color: #555;
+  }
+  @media (max-width: 768px) {
+    .facility {
+      flex-basis: calc(50% - 40px);
+    }
+  }
+  @media (max-width: 480px) {
+    .facility {
+      flex-basis: 100%;
+    }
+  }
+  @media (min-width: 1400px) {
+    .containerrr {
+        max-width: 1320px;
+        margin: 0 auto;
+    }
+}
