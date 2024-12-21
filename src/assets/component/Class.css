@@ -26,30 +26,98 @@
     /* border: 1px solid; */
     justify-content: space-between;
 }
-.live-tagg{
+.live-taggg4 {
+    position: absolute;
+    top: -1%;
+    left: 81%;
+    /* background-image: url(https://png.pngtree.com/png-clipart/20190705/original/pngtree-vector-elements-of-pencil-knowledge-tree-in-red-books-png-image_4346185.jpg); */
+    /* right: 50%; */
+    /* background-color: #4a4ef1; */
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.live-tagg333{
+    /* background: url(https://img.freepik.com/free-vector/pencil-round-smooth-style_78370-7571.jpg?t=st=1734708511~exp=1734712111~hmac=2a7be83e0c37e022b0e0f56066f14106792b7a1236ea5150f183a211804e16c0&w=826); */
     /* background-image: linear-gradient(to right, #ed6ea0, #ec8c69, #f7186a, #FBB03B); */
-    box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+    /* box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75); */
+    font-style: italic;
+    text-transform: lowercase;
+
+    position: relative;
+    /* background-image: url(https://png.pngtree.com/png-clipart/20190705/original/pngtree-vector-elements-of-pencil-knowledge-tree-in-red-books-png-image_4346185.jpg); */
+    /* transition: ease-in-out; */
+    width: 5vmin;
+    background-size: contain;
+    height: 5vmin;
+    background-repeat: no-repeat;
+    background-color: #f7c75f;
+    border-radius: 50%;
+    /* z-index: 0; */
+    /* border: 2px solid orange; */
+    /* border: 5px solid; */
+    animation-name: examplee;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+.live-tagg{
+    /* background: url(https://img.freepik.com/free-vector/pencil-round-smooth-style_78370-7571.jpg?t=st=1734708511~exp=1734712111~hmac=2a7be83e0c37e022b0e0f56066f14106792b7a1236ea5150f183a211804e16c0&w=826); */
+    /* background-image: linear-gradient(to right, #ed6ea0, #ec8c69, #f7186a, #FBB03B); */
+    /* box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75); */
     font-style: italic;
     text-transform: lowercase;
     position: relative;
+    background-image: url(https://png.pngtree.com/png-vector/20241014/ourlarge/pngtree-a-two-school-kid-flying-with-pencil-cartoon-png-image_14080560.png);
     /* transition: ease-in-out; */
-    width: 3vmin;
-    height: 3vmin;
-    background-color:#f7c75f;
+    width: 5vmin;
+    background-size: contain;
+    height: 5vmin;
+    background-repeat: no-repeat;
+    /* background-color: #f7c75f; */
+    border-radius: 50%;
+    /* z-index: 0; */
+    border: 2px solid yellow;
+    /* border: 5px solid; */
+    animation-name: examplee;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+.live-taggg{
+    background: url(https://png.pngtree.com/png-clipart/20240507/ourmid/pngtree-3d-graduation-cap-and-book-png-image_12366345.png);
+    /* background-image: linear-gradient(to right, #ed6ea0, #ec8c69, #f7186a, #FBB03B); */
+    /* box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75); */
+    font-style: italic;
+    text-transform: lowercase;
+    position: relative;
+    
+    /* transition: ease-in-out; */
+    filter: drop-shadow(offset-x offset-y blur-radius color);
+
+    width: 13vmin;
+    backdrop-filter: ;
+    background-size: contain;
+    height: 13vmin;
+    background-repeat: no-repeat;
+    /* background-color: #f7c75f; */
     border-radius: 50%;
     /* z-index: 0; */
     /* border: 5px solid; */
     animation-name: examplee;
     animation-duration: 4s;
-    animation-iteration-count:infinite;
+    animation-iteration-count: infinite;
+
 }
  
+ 
 @keyframes examplee {
-    0%   {  left:0px; top:0px;}
+    0%   {  left:0px; top:0px; opacity: 0;}
     
-    50%  {    top:10px;}
+    50%  {    top:10px; opacity: 0.5;}
    
-    100% {   top:20px;}
+    100% {   top:20px; opacity: 1;}
   }
  
 @keyframes example {
@@ -151,7 +219,7 @@
 .left-content,
 .right-content {
     flex: 1 1 45%;
-    margin: 10px;
+    margin-top: 10px;
     text-align: center;
 }
 
@@ -243,7 +311,13 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    #flrxflow{
+        flex-flow: column-reverse;
+
+    }
     .course-section {
+        flex-flow: column-reverse;
+
         flex-direction: column;
     }
 

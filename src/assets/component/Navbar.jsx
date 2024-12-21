@@ -17,11 +17,23 @@ function Navbar() {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   })
+
+
+  let OnClickHide = () => {
+
+    if (document.getElementById("hideandshow").style.display === "none") {
+      document.getElementById("hideandshow").style.display = "block"
+
+    } else {
+      document.getElementById("hideandshow").style.display = "none"
+
+    }
+  }
   return (
     <>
       <div className="section">
         <div className='main'>
-          <header>
+          <header className='navhide'>
             <div className="social-icons">
               <a href="#"><i className="fab fa-facebook-f"></i></a>
               <a href="#"><i className="fab fa-linkedin-in"></i></a>
@@ -46,12 +58,14 @@ function Navbar() {
           {/* <hr /> */}
 
           {/* <!-- Navigation --> */}
-          <nav>
-            <div className="logo">
+          <nav className='navmobile'>
+            <div id='mylogo' className="logo">
               <img src="https://suriya2023.github.io/School-Website/static/media/s2.eaf0b4960ee08d27901e.png" alt="Logo" />
               <h1 className='hy'>શ્રેયસ  વિદ્યાલય<br /></h1>
+              <button onClick={OnClickHide} className='icons'><i class="fa-solid fa-bars"></i> </button>
+
             </div>
-            <ul className='hover'>
+            <ul id='hideandshow1' className='hover'>
               <li><a href="#">Home</a></li>
               <li><a href="#">About</a></li>
               <li><a href="#">Vision</a></li>
@@ -60,6 +74,15 @@ function Navbar() {
               <li><a href="#">Admission </a></li>
               <li><a href="#">Achievement </a></li>
             </ul>
+              <ul id='hideandshow' className='hover'>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Vision</a></li>
+                <li><a href="#">My Gallery</a></li>
+                <li><a href="#">My Study</a></li>
+                <li><a href="#">Admission </a></li>
+                <li><a href="#">Achievement </a></li>
+              </ul>
 
 
           </nav>

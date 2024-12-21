@@ -157,8 +157,54 @@
      font-size: 1rem;
  }
 
+ .icons {
+     display: none;
+ }
+
+ #hideandshow {
+     text-align: center;
+     margin: 0 auto;
+     display: none;
+ }
+
  /* Responsive Design */
  @media (max-width: 768px) {
+    #hideandshow1{
+        display: none;
+    }
+
+     #mylogo {
+         /* display: flex
+; */
+         /* border: 2px solid red; */
+         justify-content: start;
+         width: 100%;
+         /* transform: translateX(400%); */
+         display: flex;
+         align-items: center;
+         gap: 10px;
+         /* opacity: 0; */
+         justify-content: space-between;
+         padding: 2vmin;
+     }
+
+     .icons {
+         cursor: pointer;
+         font-size: 4vmin;
+         color: black;
+         display: block;
+     }
+
+     .navmobile {
+         /* color: #fff; */
+         /* background-color: aliceblue; */
+         flex-direction: column;
+     }
+
+     .navhide {
+         display: none;
+     }
+
      header {
          flex-direction: column;
          text-align: center;

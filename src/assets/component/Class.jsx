@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react'
+import React, { useEffect } from 'react'
 import './Class.css'
 // import Vedio from './Videos/study.mp4'
 function Class() {
@@ -39,8 +39,8 @@ function Class() {
     return (
         <>
 
-            <section className="course-section">
-             
+            <section id='flrxflow' className="course-section">
+
 
                 {/* <!-- Right Side Content --> */}
                 <div className="right-content">
@@ -53,24 +53,29 @@ function Class() {
                         <li>✅ Access Your Class Anywhere</li>
                         <li>✅ Flexible Course Plan</li>
                     </ul>
-                    <button className="btn-hover color-10">Start Free Trial →</button>
+                    <button className="btn-hover color-10">Aboute More →</button>
                 </div>
 
-
-                   {/* <!-- Left Side with Image --> */}
-                   <div className="left-content">
+                {/* <!-- Left Side with Image --> */}
+                <div className="left-content">
                     <div className="image-container">
                         <img src="https://geniusinfotech.github.io/Shreyas-Vidyalaya/static/media/pixelcut-export.d9176d621426590bb9e3.png" alt="Students" className="main-image" />
-                       <div id='old'>
-                       <div className="live-tagg"> </div> 
-                       <div className="live-tagg"> </div> 
-{/*                        
+                        <div id='old'>
+                            <div className="live-tagg"> </div>
+                            <div className="live-taggg"> </div>
+                            {/*                        
                        <div className="live-tagg"> </div> 
                        <div className="live-tagg"> </div> */}
-                       </div>
+                        </div>
 
                         {/* <video src={Vedio}    autoPlay muted  onPlay={true}  loop  ></video> */}
                         <div className="live-tag ">LIVE CLASS</div>
+                        <div className="live-taggg4 ">
+                            <div className="live-tagg333"> </div>
+
+
+
+                        </div>
                         <div className="enrolled-info">
                             <span>36K+ <strong>Enrolled Students</strong></span>
                             <div className="avatars">
