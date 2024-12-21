@@ -8,6 +8,7 @@ import './App.css'
 import Class from "./assets/component/Class";
 // import Sr from './assets/Videos/study.mp4'
 import Class2 from "./assets/component/class2";
+import News from "./assets/component/News";
 // import Schoole_Facility from './assets/component/Schoole_Facility'
 
 function App() {
@@ -54,6 +55,7 @@ function App() {
  <Navbar />
  <Class  />
  <Class2/>
+ <News/>
  {/* <Schoole_Facility/> */}
  </div>
    </div>
