@@ -86,8 +86,7 @@ function class2() {
                     <h2><span className="highlight2">Best Eduction For</span>
                         Your Childern's Fututre.</h2>
                     <p>
-                        Every teaching and learning journey is unique Following We'll help guide your way.
-                    </p>
+                    દરેક શિક્ષણ અને શીખવાની યાત્રા અનન્ય છે નીચે મુજબ અમે તમારા માર્ગને માર્ગદર્શન આપવામાં મદદ કરીશું. </p>
                     {/* <ul>
                         <li>✅ The Most World Class Instructors</li>
                         <li>✅ Access Your Class Anywhere</li>

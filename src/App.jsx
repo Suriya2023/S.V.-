@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from './assets/component/Navbar'
-import AnimatedCursor from "react-animated-cursor"
+// import AnimatedCursor from "react-animated-cursor"
 // import sr from './Videos/Study'
 
 
@@ -9,6 +9,11 @@ import Class from "./assets/component/Class";
 // import Sr from './assets/Videos/study.mp4'
 import Class2 from "./assets/component/class2";
 import News from "./assets/component/News";
+import Form from "./assets/component/Form";
+import Material from "./assets/component/material";
+import Subject from './assets/component/subject'
+ import Footer from "./assets/component/Footer";
+import OurApp from "./assets/component/OurApp";
 // import Schoole_Facility from './assets/component/Schoole_Facility'
 
 function App() {
@@ -16,7 +21,7 @@ function App() {
 
   return (
     <>
-      { <AnimatedCursor
+      {/* { <AnimatedCursor
         innerSize={8}
         outerSize={8}
         color='193, 11, 111'
@@ -47,18 +52,31 @@ function App() {
             }
           }
         ]}
-      /> }
-   <div className="imgdiv">
-    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTDhkJ87MhfGS2EGN6b6OlmzKAGletd1NbBUoKF1wDBdH87qeAGHtpbTG4aS2_aElWVSuCDsONNHVjA6tbZLjqDL-nhEG9WlvYypFtS9piuqCAQDO-NqYKnGUqAEjKu2-5B_JZT1rQPlFRpr0tmSIiap2rRC2APUXvZSDtD_8wgHI3X16Y8XAc8arHiaXd/s16000/Shreyas-Vidyalaya%20Vidhyalaya.png" alt="" />
-  
- <div className="maindiv">
- <Navbar />
- <Class  />
- <Class2/>
- <News/>
- {/* <Schoole_Facility/> */}
- </div>
-   </div>
+      /> } */}
+      <div className="imgdiv">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTDhkJ87MhfGS2EGN6b6OlmzKAGletd1NbBUoKF1wDBdH87qeAGHtpbTG4aS2_aElWVSuCDsONNHVjA6tbZLjqDL-nhEG9WlvYypFtS9piuqCAQDO-NqYKnGUqAEjKu2-5B_JZT1rQPlFRpr0tmSIiap2rRC2APUXvZSDtD_8wgHI3X16Y8XAc8arHiaXd/s16000/Shreyas-Vidyalaya%20Vidhyalaya.png" alt="" />
+
+        <div className="maindiv">
+          <Navbar />
+          <Class />
+          <Class2 />
+          <br />
+          <hr />
+          <br />
+          <News />
+          <Form />
+          <br />
+          <Subject/>
+          <br />
+
+          <Material />
+    
+          <OurApp />
+          {/* <br /> */}
+          <Footer />
+          {/* <Schoole_Facility/> */}
+        </div>
+      </div>
 
 
     </>

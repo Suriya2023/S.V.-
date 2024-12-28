@@ -1,0 +1,125 @@
+.cccontainer {
+    /* background: #fff; */
+    /* background-color: #e7dece; */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+}
+.heeeader h1 {
+    margin: 0;
+    color: #8B4513;
+}
+
+.heeeader h2 {
+    margin: 5px 0;
+    color: #333;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.grid-item {
+    background: #e0e0e0;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.download-buttons image {
+    /* background: #007bff; */
+    /* background: url(https://www.freepnglogos.com/uploads/google-play-png-logo/new-get-it-on-google-play-png-logo-20.png); */
+    /* color: #fff; */
+    border: none;
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid red;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#wim{
+    margin: auto;
+    width: 7rem;
+}
+.hellow{
+    font-size: 3rem;
+}
+#wim1{
+    margin: auto;
+    height: 4.5rem;
+    width: 13rem;
+}
+ 
+
+.download-buttonss{
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    /* border: 1px solid; */
+}
+@media (max-width: 425px) {
+    .download-buttons{
+        margin: 13px auto;
+    }
+    .heeeader{
+        margin: 13px auto;
+    }
+.cccontainer > img{
+    width: 100%;
+}
+    .grid {
+        margin: 0 auto;
+        grid-template-columns: 1fr;
+    }
+}
+.ss3{
+    margin: 0 auto;
+    display: flex;
+    /* background-color: #f9f1e4; */
+    width: 61%;
+
+}
+.ss2{
+    margin: 0 auto;
+}
+.sss2{
+    width: 100%;
+    /* background-color:#f9f1e4; */
+    
+}
+@media (max-width: 991px) {
+    .heeeader{
+        margin: 0 auto;
+    }
+    .ss3{
+        margin: 0 auto;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media (min-width: 1400px) {
+    /* .download-buttons{
+        display: flex;
+        height: 13vmin;
+        padding: 0px;
+        margin: 0 auto;
+    } */
+
+    .ss2{
+        max-width: 1320px;
+    }
+}

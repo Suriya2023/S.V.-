@@ -1,0 +1,38 @@
+.materia{
+    padding: 2vmin;
+    /* border: 2px solid ; */
+}
+.mainsub{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit,minmax(200px , 2fr));
+    /* flex-wrap: wrap; */
+}
+.materia h1{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 2rem;
+    /* font-weight: 700; */
+}
+.submt > img{
+    /* border: 2px solid; */
+    cursor: pointer;
+    width: 18rem;
+    /* border-radius: 3rem; */
+    margin: 0 auto;
+}
+
+.myfont{
+background-color: rgb(207, 118, 23);
+padding: 0 5px;
+color: white;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: italic;
+box-shadow: 10px 10px 10px 10px;
+width: auto;
+font-weight: bold;
+cursor: pointer;
+width: 7rem;
+/* box-shadow: 10px 10px 10px 10px; */
+border-radius: 5px;
+}

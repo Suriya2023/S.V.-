@@ -44,16 +44,16 @@ function Class() {
 
                 {/* <!-- Right Side Content --> */}
                 <div className="right-content">
-                    <h2><span className="highlight">Thousand Of Top</span> Courses Now In One Place</h2>
+                    <h2><span className="highlight">હજારો ટોચના</span> અભ્યાસક્રમો હવે એક જ જગ્યાએ</h2> 
                     <p>
-                        Groove’s intuitive shared inbox makes it easy for team members to organize, prioritize, and communicate effectively.
+                    ગ્રૂવનું સાહજિક વહેંચાયેલું ઇનબોક્સ ટીમના સભ્યો માટે અસરકારક રીતે વ્યવસ્થિત, પ્રાથમિકતા અને સંવાદ કરવાનું સરળ બનાવે છે.
                     </p>
                     <ul>
-                        <li>✅ The Most World Class Instructors</li>
-                        <li>✅ Access Your Class Anywhere</li>
-                        <li>✅ Flexible Course Plan</li>
-                    </ul>
-                    <button className="btn-hover color-10">Aboute More →</button>
+                        <li>✅ સૌથી વધુ વિશ્વ કક્ષાના પ્રશિક્ષકો</li>
+                        <li>✅  તમારો વર્ગ ગમે ત્યાં ઍક્સેસ કરો</li>
+                        <li>✅  ફ્લેક્સિબલ કોર્સ પ્લાન</li>
+                    </ul> <button className="btn-hover color-10">Aboute More →</button>
+                   
                 </div>
 
                 {/* <!-- Left Side with Image --> */}

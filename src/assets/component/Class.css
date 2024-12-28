@@ -1,9 +1,4 @@
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
+ 
 .btn-hover.color-10 {
     background-image: linear-gradient(to right, #ed6ea0, #ec8c69, #f7186a, #FBB03B);
     box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
@@ -121,11 +116,18 @@
   }
  
 @keyframes example {
-  0%   {background-color:red; left:0px; top:0px;}
+  0%   {background-color:red; left:0px; top:5px;}
   
-  50%  {background-color:blue;   top:10px;}
+  25%  {background-color:blue;  left: 15px;  top:10px;}
  
-  100% {background-color:red;  top:20px;}
+  50% {background-color:red; left: -5px;  top:20px;}
+
+  65%   {background-color:red; left:-0px; top:-0px;}
+  
+  85%  {background-color:blue;   top:10px;}
+ 
+  100% {background-color:red; left:0px; top:5px;}
+  
 }
 .btn-hover:focus {
     outline: none;

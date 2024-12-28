@@ -1,0 +1,140 @@
+.footer {
+    font-family: sans-serif;
+    background-color: #3E2723;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.ss444 {
+    background-color: #3E2723;
+    width: 100%;
+}
+
+.footer-column {
+    flex-basis: calc(33% - 40px);
+    margin-bottom: 20px;
+}
+.footer-column h2{
+    color: #cb941a;
+    border-bottom: 3px solid;
+    width: 50%;
+    line-height: 7vmin;
+
+}
+.aaaqhr{
+margin-top: -1vmin;
+width: 81%;
+height: 7.2px;
+}
+.footer-column img {
+    width: 17vmin;
+    margin-top: 0;
+    margin-bottom: 7vmin;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+.cenastat{
+     /* display: flex; */
+     flex-direction: column;
+     /* width: 100%; */
+     text-align: center;
+     align-content: flex-start;
+     font-size: 2vmin;
+ }
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+.mainfootrlast{
+    padding: 1vmin;
+    height: auto;
+    background-color: #cb941a;
+    
+}
+
+.dowwnload-buttons img {
+    /* background: #007bff; */
+    color: #fff;
+    width: 35vmin;
+    border: none;
+    padding: 10px 0px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.maincirscle {
+    display: flex;
+}
+
+.circle>a {
+    color: #39de95;
+    font-size: 2vmin;
+    text-decoration: none;
+    font-family: emoji;
+}
+.lalalaaa{
+    
+    color: #39de95;
+    font-size: 2vmin;
+    text-decoration: none;
+    font-family: emoji;
+}
+.reed{
+    color: red;
+}
+.circle>i {
+    margin-right: 1vmin;
+    border: 1px solid;
+    padding: 1.1vmin;
+    border-radius: 50%;
+    color: black;
+    background: white;
+    /* font-size: 1vmin; */
+}
+#aaqq
+{
+    margin-right: 1vmin;
+    border: 1px solid;
+    padding: 1.1vmin;
+    border-radius: 50%;
+    color: black;
+    background: white;
+    /* font-size: 1vmin; */
+}
+.lastdivfooter{
+    width: 100%;
+    background-color: #cb941a;
+}
+
+
+@media (max-width: 768px) {
+    .footer-column {
+        flex-basis: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-column {
+        flex-basis: 100%;
+    }
+}
+
+@media (min-width: 1400px) {
+.mainfootrlast{
+    text-align: center;
+        /* width: 100%; */
+        max-width: 1320px;
+        margin: 0 auto;
+}
+    .ss44 {
+        /* width: 100%; */
+        max-width: 1320px;
+        margin: 0 auto;
+    }
+}
