@@ -70,6 +70,56 @@
     width: 100%;
     /* border: 1px solid; */
 }
+
+#myslid9{
+    /* .logo { */
+    opacity: 0;
+      transform: translateX(400%);}
+  
+      #myslid9.fire {
+  
+       transition: all 0.8s ease;
+       transform: translateY(0%);
+       opacity: 1;
+   }
+
+
+   #myslid10{
+    /* .logo { */
+    opacity: 0;
+      transform: translateX(-400%);}
+  
+      #myslid10.fire {
+  
+       transition: all 0.8s ease;
+       transform: translateY(0%);
+       opacity: 1;
+   }
+
+   #wim{
+    /* .logo { */
+    opacity: 0;
+      transform: translateX(400%);}
+  
+      #wim.fire {
+  
+       transition: all 0.8s ease;
+       transform: translateY(0%);
+       opacity: 1;
+   }
+
+
+   #wim1{
+    /* .logo { */
+    opacity: 0;
+      transform: translateX(-400%);}
+  
+      #wim1.fire {
+  
+       transition: all 0.8s ease;
+       transform: translateY(0%);
+       opacity: 1;
+   }
 @media (max-width: 425px) {
     .download-buttons{
         margin: 13px auto;

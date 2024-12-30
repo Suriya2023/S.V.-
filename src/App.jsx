@@ -12,7 +12,7 @@ import News from "./assets/component/News";
 import Form from "./assets/component/Form";
 import Material from "./assets/component/material";
 import Subject from './assets/component/subject'
- import Footer from "./assets/component/Footer";
+import Footer from "./assets/component/Footer";
 import OurApp from "./assets/component/OurApp";
 // import Schoole_Facility from './assets/component/Schoole_Facility'
 
@@ -66,11 +66,11 @@ function App() {
           <News />
           <Form />
           <br />
-          <Subject/>
+          <Subject />
           <br />
 
           <Material />
-    
+
           <OurApp />
           {/* <br /> */}
           <Footer />

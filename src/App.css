@@ -10,7 +10,9 @@
   height: 100vh;
  }
 
- 
+ .imgdiv{
+  overflow: hidden;
+ }
  .maindiv{
   width: 100%;
   margin: 0 auto;

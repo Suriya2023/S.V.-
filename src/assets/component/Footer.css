@@ -13,6 +13,31 @@
     width: 100%;
 }
 
+#myslid11{
+    /* .logo { */
+    opacity: 0;
+      transform: translateX(400%);}
+  
+      #myslid11.fire {
+  
+       transition: all 0.8s ease;
+       transform: translateY(0%);
+       opacity: 1;
+   }
+
+
+   #myslid12{
+    /* .logo { */
+    opacity: 0;
+      transform: translateX(-400%);}
+  
+      #myslid12.fire {
+  
+       transition: all 0.8s ease;
+       transform: translateY(0%);
+       opacity: 1;
+   }
+
 .footer-column {
     flex-basis: calc(33% - 40px);
     margin-bottom: 20px;
