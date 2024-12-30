@@ -45,12 +45,14 @@
  }
 
  .logo {
-     /* transform: translateX(400%); */
+     transform: translateX(-400%);
      display: flex;
      align-items: center;
      gap: 10px;
      /* opacity: 0; */
  }
+
+ 
 
  .logo.fire {
 

@@ -11,9 +11,9 @@ function Footer() {
           <div class="footer-column">
             
             <img src={LogoFf} alt="Logo" />
-              <h1>શ્રેયસ વિદ્યાલય</h1>
+              <h1 className='font-xl'>શ્રેયસ વિદ્યાલય</h1>
             {/* <br /> */}
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...</p>
+            <p>At શ્રેયસ વિદ્યાલય, we believe that every child deserves the opportunity to shine. Our school is dedicated to providing a nurturing and challenging environment where students can grow academically, socially, and emotionally.</p>
             <div class="dowwnload-buttons">
               <img className='aaaaaa' src="https://www.freepnglogos.com/uploads/app-store-logo-png/google-play-and-apple-app-store-logos-22.png" alt="img" />
             </div>

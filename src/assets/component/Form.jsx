@@ -1,20 +1,55 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Form.css'
 function Form() {
+
+    useEffect(() => {
+        let elements = document.querySelectorAll("#myslid3")
+        let handleScroll = () => {
+          let viewportHeight = window.innerHeight;
+          elements.forEach(element => {
+            let boundingRect = element.getBoundingClientRect().top;
+            if (boundingRect < viewportHeight) {
+              element.classList.add('fire');
+            } else {
+              element.classList.remove('fire');
+            }
+          })
+        }
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+      })
+
+
+      useEffect(() => {
+        let elements = document.querySelectorAll("#myslid4")
+        let handleScroll = () => {
+          let viewportHeight = window.innerHeight;
+          elements.forEach(element => {
+            let boundingRect = element.getBoundingClientRect().top;
+            if (boundingRect < viewportHeight) {
+              element.classList.add('fire');
+            } else {
+              element.classList.remove('fire');
+            }
+          })
+        }
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+      })
     return (
         <div>
             <div className="form-container1">
                 <div>
 
                 </div>
-                <div className="form-header1">
+                <div id='myslid3' className="form-header1">
                     Sign up for a free trial lesson by <span className="highlighttt1"> Zoom</span>
                 </div>
                 <div className="form-body1">
-                    <p>Fill out the form below to schedule your free trial lesson.</p>
-                    <input type="text" placeholder="Your name" required />
-                    <input type="email" placeholder="Email address" required />
-                    <select required>
+                    <p id='myslid4'> Fill out the form below to schedule your free trial lesson.</p>
+                    <input  id='myslid3' type="text" placeholder="Your name" required />
+                    <input  id='myslid4' type="email" placeholder="Email address" required />
+                    <select id='myslid3' required>
                         <option value="">Select class</option>
                         <option value="course1">class 1</option>
                       <option value="course2">class 2</option> */}
@@ -29,7 +64,7 @@ function Form() {
 
 
                     </select>
-                    <button type="submit">Send Request →</button>
+                    <button id='myslid4' type="submit">Send Request →</button>
                 </div>
             </div>
      

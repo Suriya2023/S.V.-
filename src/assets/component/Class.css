@@ -184,7 +184,7 @@
 .right-content{
     width: 100%;
     overflow-X: hidden;
-    /* transform: translateX(-400%); */
+    transform: translateX(-400%);
 
     transition: all 0.7s;
 }
@@ -201,7 +201,7 @@
 
 
 .left-content{
-    /* transform: translateX(400%); */
+    transform: translateX(400%);
 
     width: 100%;
     overflow-X: hidden;

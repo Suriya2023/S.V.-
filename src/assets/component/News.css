@@ -11,6 +11,32 @@
   height: 100%;
   object-fit: contain;
 }
+#myslid{
+  /* .logo { */
+  opacity: 0;
+  
+    transform: translateX(400%);}
+
+    #myslid.fire {
+      opacity:1;
+
+     transition: all 0.9s ease;
+     transform: translateY(0%);
+     /* opacity: 0; */
+ }
+
+ #myslid2{
+  /* .logo { */
+  opacity: 0;
+    transform: translateX(-400%);}
+
+    #myslid2.fire {
+      opacity: 1;
+
+     transition: all 0.9s ease;
+     transform: translateY(0%);
+     /* opacity: 0; */
+ }
 
 .btn-hoverr {
   width: 10rem;

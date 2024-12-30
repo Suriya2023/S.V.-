@@ -20,6 +20,31 @@
     font-size: 1.5rem;
 }
 
+
+#myslid3{
+    /* .logo { */
+    opacity: 0;
+      transform: translateX(400%);}
+  
+      #myslid3.fire {
+  
+       transition: all 0.8s ease;
+       transform: translateY(0%);
+       opacity: 1;
+   }
+  
+   #myslid4{
+    /* .logo { */
+    opacity: 0;
+      transform: translateX(-400%);}
+  
+      #myslid4.fire {
+  
+       transition: all 0.8s ease;
+       transform: translateY(0%);
+       opacity: 1;
+   }
+  
 .form-body1 {
     text-align: center;
 }

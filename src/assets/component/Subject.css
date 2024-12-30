@@ -21,7 +21,28 @@
     /* border-radius: 3rem; */
     margin: 0 auto;
 }
-
+#myslid5{
+    /* .logo { */
+    opacity: 0;
+      transform: translateX(400%);}
+  
+      #myslid5.fire {
+  
+       transition: all 0.8s ease;
+       transform: translateY(0%);
+       opacity: 1;
+   }
+   #myslid6{
+    /* .logo { */
+    opacity: 0;
+      transform: translateX(-400%);}
+  
+      #myslid6.fire {
+  
+       transition: all 0.8s ease;
+       transform: translateY(0%);
+       opacity: 1;
+   }
 .myfont{
 background-color: rgb(207, 118, 23);
 padding: 0 5px;
